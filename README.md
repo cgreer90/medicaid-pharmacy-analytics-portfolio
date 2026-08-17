@@ -33,18 +33,18 @@ Project 1 demonstrates the ability to analyze existing claims data and identify 
 
 ## Repository Structure
 medicaid-pharmacy-analytics-portfolio/
-├── README.md ← this file
+├── README.md                              ← Master portfolio documentation & skills crosswalk
 ├── project-1-audit-risk-model/
-│ ├── README.md
-│ ├── data/ ← raw CMS claims data
-│ ├── scripts/ ← Python build scripts
-│ ├── output/ ← Excel workbook + methodology PDF
-│ └── visuals/ ← chart images
+│   ├── README.md                          ← Claims audit methodology & model documentation
+│   ├── data/                              ← Raw CMS Medicaid claims dataset
+│   ├── scripts/                           ← Python build scripts & anomaly detection logic
+│   ├── output/                            ← Risk model Excel workbook & methodology summary
+│   └── visuals/                           ← Trend charts & distribution visualizations
 └── project-2-pa-rule-requirements/
-├── README.md
-├── build_test_matrix.py
-├── build_defect_log.py
-└── output/ ← BRD + test case/defect log workbook
+    ├── README.md                          ← BRD specifications & UAT testing overview
+    ├── build_test_matrix.py               ← Test scenario generator & claim validator
+    ├── build_defect_log.py                ← Defect logger & reporting automation script
+    └── output/                            ← Formatted BRD & UAT test matrix/defect workbook
 
 
 ## Tools Used
